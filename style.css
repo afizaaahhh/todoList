@@ -1,0 +1,169 @@
+.card {
+	margin: 20px auto;
+    background-color: #eceff0;
+    width: 100%;
+    max-width: 1100px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 0 rgba(0,0,0, .1);
+    box-sizing: border-box;
+}
+
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#123456;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	/*background: #FFF8DC;*/
+	/*border: 2px solid #6B8E23;*/
+	/*border-radius: 20px;*/
+}
+
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	/*background: #FFF8DC;*/
+	/*border: 1px solid #6B8E23;*/
+}
+
+form p {
+	color: red;
+	margin: 0px;
+}
+
+.input_task {
+	/*margin-left: 100px;*/
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	width: 85%;
+	padding: 10px;
+	float: left;
+	font-size: 16px;
+}
+
+.add_btn {
+	margin-left: 5px;
+	padding: 10px;
+	width: 10%;
+	background: #d9d9d9;
+	color: #555;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 0;
+}
+
+.add_btn:hover {
+	background-color: #2C3539;
+	color: white;
+}
+
+.alert {
+	padding: 10px;
+	background-color: #f44336;
+	color: white;
+	opacity: 1;
+	transition: opacity 0.6s;
+	font-size: 16px;
+	margin-bottom: 15px;
+	border-radius: 30px;
+	width: 40%;
+	font-family: 'Oswald', sans-serif;
+}
+
+.alert.success {background-color: #97BD64;}
+
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 25px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: white;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #151B54;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.fa-check{
+	display: inline-block;
+	background-color:#d9dfe1; 
+	color:#54C571;
+	border: 0;
+	opacity: 0.5;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+.done_btn :hover{
+	opacity: 1;
+	background-color: #F5F5DC; 
+	color:#006400;
+}
+
+.fa-minus:hover {
+    opacity: 1;
+    color:#FF0000;
+	background: white;
+ }
+
+.fa-minus{
+	display: inline-block;
+	color:white;
+	background: #FF0000;
+	padding: 1px 6px;
+	border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+/*.name{
+	text-decoration: line-through;
+}*/
+
+
+
+
+
+
